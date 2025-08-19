@@ -1,0 +1,2 @@
+[12-May-2025 18:32:45 UTC] PHP Fatal error:  Cannot redeclare LeadWorkingModel::GetAssignedLead() in /home/vcluifwf/public_html/crm/application/models/LeadWorkingModel.php on line 11
+[24-May-2025 08:45:20 UTC] PHP Fatal error:  Cannot redeclare LeadUploading::process_mapping() in /home/vcluifwf/public_html/crm/application/controllers/LeadUploading.php on line 305
