@@ -27,6 +27,12 @@
 			    return $this->db->get()->result();
 			}
 
+		public function get_unassigned_leads() {
+			$this->db->where('agent_id', 0);
+			$query = $this->db->get('cc_leads_a');
+			return $query->result(); // result() → multiple records
+		}
+
 
 	}
 ?>

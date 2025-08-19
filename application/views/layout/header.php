@@ -143,6 +143,7 @@
     <ul class="nav nav-list tree">
       <li><a href="<?= site_url('LeadMnagement') ?>">CC Leads (A)</a></li>
       <li><a href="<?= site_url('LeadMnagement/Lead_B_Type') ?>">CC Leads (B)</a></li>
+      <li><a href="<?= site_url('LeadA/UnAssignLeads') ?>">Old Leads</a></li>
     </ul>
   </li>
 
